@@ -1,0 +1,13 @@
+What happens when you initilalize a repository? Why do you need it?
+When you initialze a repository by running the command 'git init' on
+the directory you are currently in, it will no longer be known as a
+'fatal error' when you run git log on that directory. You need to 
+maintain a repository to keep track of all versions of all your 
+files in that reposiotry, in case you come across any bugs, loose
+any progress or need to revert back to a previous version of a file
+or group of files.
+How is the staging area different from the working directory or
+repository? What value do you think it offers?
+The staging area is sort of like a testing area, for files and 
+repositories. It offers a good way to double check anything you may
+need before actually creating a commit for any logical change.
