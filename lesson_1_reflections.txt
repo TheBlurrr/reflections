@@ -1,0 +1,20 @@
+The command 'diff' in GitBash helped me easily spot bugs by comapring the old and new version of the test file. Once I 
+ran the command, the shell quickly displayed only the difference of the new and old files in an failry legible manner.
+Having easy and quick access to old version of any file can make one a more efficient programmer because it saves a 
+lot of time by cuttung down the time to look for possible bugs. You can find older revisions and correct possibles
+bugs created by newer version of the file considerably quicker then going through each line of code individually. 
+One of the pros for manually creating a commit on a file is that you have complete version control of that file. 
+The one draw back I would see is that because you have complete control, any missing commits will entirely 
+depend on your number of logical commits, or lack thereof. 
+The reason I think that collaboration services, such as Git, offer a way to save mulitple files at one time is 
+becasue some repositories, such as web development files, need to be saved together in order for the entire
+project to work, whereas Google and other collaboration services were not designed to have multiple files 
+saved at once since it is not used for coding collaborations.
+You can use the "git logs" and "git diff" commands to find the unique IDs of each commit, and then compare
+them to see how many lines were taken away and added from the code. It also shows which specific lines were removed
+to specify any changes that helped or hindered the code.
+With the ability to revert to previous version of a depository, a person can have more confidence in editing portions
+of code because if something gets broke, one can easily go back to a previous version and find the bug that was 
+accidentally intorduced. 
+Now that I set up my workstation in bash by editing my '.bash_profile', I would really like to start using it 
+and see how efficient it can be.
