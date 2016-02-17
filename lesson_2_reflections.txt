@@ -18,3 +18,9 @@ logical changes to one file, but maybe not another, you can add that
 file to the staging area and commit. Or you can choose to saved both
 files in the staging area and commit both of them if they are all 
 part of one logical change.
+What are some situations when branches would be helpful in keeping
+your history organized? How would branches help?
+When created a different version of your code, you can use git to
+track the hsitory of the repositories in each branch. This can
+later help if you want to merge you other branches with your 
+current master branch.
