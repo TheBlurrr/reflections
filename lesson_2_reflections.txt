@@ -30,3 +30,12 @@ their parent commit, all the way the original commit, it really gives
 you a straightforward path to each branch and commit. It also helps
 you easily spot out any commits that are currently in a detached 
 HEAD state, until you add the branch and check it out.
+What is the result of merging two branches together? Why do we
+represent in the diagram the way we do?
+The result of merging two branches results in the two branches
+and their commits being merged together into the new 'master' branch.
+The diagram is is represented in the way it is because it makes it 
+easier for a user to follow the path of each commit's parent commit,
+and it show the different commits in each of the branches, each
+dependent of their commits, but both branches are independent of 
+each other.
