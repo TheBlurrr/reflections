@@ -24,3 +24,9 @@ When created a different version of your code, you can use git to
 track the hsitory of the repositories in each branch. This can
 later help if you want to merge you other branches with your 
 current master branch.
+How do diagrams help you visualize the branch structure?
+When creating a diagram, especially those with arrows that point to
+their parent commit, all the way the original commit, it really gives
+you a straightforward path to each branch and commit. It also helps
+you easily spot out any commits that are currently in a detached 
+HEAD state, until you add the branch and check it out.
