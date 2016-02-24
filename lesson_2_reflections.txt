@@ -39,3 +39,8 @@ easier for a user to follow the path of each commit's parent commit,
 and it show the different commits in each of the branches, each
 dependent of their commits, but both branches are independent of 
 each other.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+One of the pros for Git's auto merge is that it uses logic, such as when the last commit
+was, to merge the most recent commits into a branch. The downside is 
+that if the same strings or methods were changed, it will create a 
+conflict that you have to manually fix later on.
