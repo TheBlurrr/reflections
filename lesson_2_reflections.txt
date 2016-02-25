@@ -44,3 +44,8 @@ One of the pros for Git's auto merge is that it uses logic, such as when the las
 was, to merge the most recent commits into a branch. The downside is 
 that if the same strings or methods were changed, it will create a 
 conflict that you have to manually fix later on.
+GitHUb Reflections:
+After creating a GitHub account, I was able to better familiarize
+myself with pulling and pushing my repositories on my local 
+machine or GitHub. I was also able to use new commands, such as git
+remote add, to add my origin remote localtion to GitHub.
