@@ -1,3 +1,11 @@
 When would you want to use a remote repository rather than keeping your work local?
 When I am collaborating with someone, I would definitely want to use a remote
 repository to keep changes on my local repository as well.
+Why might you want to always pull changes manually rather than having 
+Git automatically stay up-to-date with your remote repository?
+Pulling manually is the most convenient way to keep your work, if it
+is either in your local repository, or if it is on a remote connected
+to that repository, to stay up to date and prevent changes to be
+overwritten. If GitHub pulls automatically, it might overwrite changes
+in your local repository that you haven't pushed to that remote 
+repository in GitHub.
