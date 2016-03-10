@@ -24,3 +24,8 @@ into your master, and your remote copy gets updated with that GitHub
 copy, and then you can compare and contrast what you need to update. 
 Afterwards, you can then run 'git push' to have local and remote 
 copies of that repository completely updated.
+Collaborating without GitHub would require a lot more waiting when 
+making changes. I would first conatact all of the users that are
+collaborating on the same repository before making any commited
+changes. Then I would only Push these chanegs to the master 
+branch after they have checked the files I have changed.
