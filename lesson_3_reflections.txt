@@ -29,3 +29,7 @@ making changes. I would first conatact all of the users that are
 collaborating on the same repository before making any commited
 changes. Then I would only Push these chanegs to the master 
 branch after they have checked the files I have changed.
+I would would use a seperate branch when either testing out a piece
+of code that changes a feature in the file in said reposioty. I would
+also use it when collaborating with others, to use and edit their
+changes into my local and remote master branches.
