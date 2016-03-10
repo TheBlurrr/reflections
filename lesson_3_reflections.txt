@@ -15,3 +15,12 @@ A fork is a copy of another user's repository hosted on GitHub. It
 differs from a git Clone in that the cloned repository is still on
 GitHub servers as a 'clone'. You can create branches on either, but
 your changes will not affect the repositories original source. 
+The benefit of having a local copy of the remote GitHub repositoy,
+in the name of 'origin/master' is very helpful because it lets you
+keep track of changes you've Pushed, as well as changed others
+collaborating have Pushed as well. When running 'git fetch', and then
+'git pull origin master' to pull your origin chanegs and merge them 
+into your master, and your remote copy gets updated with that GitHub 
+copy, and then you can compare and contrast what you need to update. 
+Afterwards, you can then run 'git push' to have local and remote 
+copies of that repository completely updated.
